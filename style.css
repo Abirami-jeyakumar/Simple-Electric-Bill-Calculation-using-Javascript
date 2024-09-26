@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, sans-serif;
+background-color: #a19c98;
+margin: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+font-family: "Poppins", sans-serif;
+}
+.box{
+    background-color: #f7f7f7;
+    padding: 70px;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #a19c98;
+   
+}
+label{
+    text-align: center;
+    font-weight: bolder;
+}
+input{
+    padding: 10px;
+}
+button{
+    font-size: larger;
+    background-color:#a19c98 ;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #9a7a60;
+}
